@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
+@import url('https://dablulite.github.io/Cyan/import.css');
+
+:root {
+  --cyan-background-img: url('https://i.imgur.com/S9wLIPp.jpeg');
+  --cyan-blur-radius: 12px;
+  --cyan-accent-color: #0F6991;
+  --cyan-background-hue: 0;
+  --cyan-elevation-shadow: 0 0 0 1.5px var(--cyan-accent-color), 0 2px 10px 0 rgb(0 0 0 / 60%);
+  --cyan-tint-visibility: 8%;
+  --cyan-text-shadow: 1;
+  --cyan-font: Bai Jamjuree; /* Custom font | Default: 'Montserrat' */
+  --window-margin: 0;
+  --window-border-radius: 8px;
+  --cyan-background-primary: hsla(var(--cyan-background-hue) var(--cyan-tint-visibility) var(--cyan-background-lightness) / 40%);
+}
+
+/* Any custom CSS below here */
+
+
